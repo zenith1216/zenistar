@@ -245,7 +245,7 @@ msgstr ""
 
 #: source/accounts/templates/accounts/sign_up.html:8
 #: source/content/templates/layouts/default/page.html:61
-msgid "Create an account"
+msgid "Sign up"
 msgstr "Créer un compte"
 
 #: source/accounts/templates/accounts/sign_up.html:15
