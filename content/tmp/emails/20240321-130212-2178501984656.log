@@ -1,0 +1,53 @@
+Content-Type: multipart/alternative;
+ boundary="===============5392333725627337472=="
+MIME-Version: 1.0
+Subject: Profile activation
+From: test@example.com
+To: rchhotdev123@outlook.com
+Date: Thu, 21 Mar 2024 20:02:12 -0000
+Message-ID: <171105133208.33052.14986500932878648750@DESKTOP-DG6CGR7>
+
+--===============5392333725627337472==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+To activate your profile, please follow this link:
+
+http://127.0.0.1:8000/accounts/activate/hicSlFE4Y096WpYmltq9/
+
+--===============5392333725627337472==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>Profile activation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+
+<p>
+    To activate your profile, please follow this link:
+</p>
+
+<p>
+    <a href="http://127.0.0.1:8000/accounts/activate/hicSlFE4Y096WpYmltq9/">http://127.0.0.1:8000/accounts/activate/hicSlFE4Y096WpYmltq9/</a>
+</p>
+
+</body>
+
+</html>
+
+--===============5392333725627337472==--
+
+-------------------------------------------------------------------------------
