@@ -13,7 +13,7 @@
     <!-- <h3>👉 Convert Your Text Into An AI-Generated Images And Also Download Them 😊</h3> -->
     <div class="prompt_box">
         <form action="#" id="prompt_bar">
-            <input type="text" id="prompt_text" placeholder="Provide a prompt for your image" autocomplete="off" required>
+            <input type="text" id="prompt_text" placeholder={% trans 'Generate' %} autocomplete="off" required>
             <select class="img_quantity">
                 <!-- Options for selecting the number of images to generate -->
                 <!-- Default selection: 3 images -->
@@ -36,7 +36,7 @@
                 <option value="1024x1024">Size: 1024x1024</option>
             </select>
             {% if request.user.is_authenticated %}
-            <button>Generate</button>
+            <button>{% trans 'Generate' %}</button>
             {% endif %}
         </form>
     </div>

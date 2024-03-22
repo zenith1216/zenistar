@@ -360,3 +360,7 @@ msgstr "Ваше имя пользователя"
 #: source/content/templates/main/index.html:13
 msgid "You are a guest."
 msgstr "Вы гость."
+
+#: source/content/templates/main/index.html:16
+msgid "Provide a prompt for your image."
+msgstr "Укажите подсказку для вашего изображения."
