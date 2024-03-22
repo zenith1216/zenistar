@@ -13,14 +13,14 @@
     <!-- <h3>👉 Convert Your Text Into An AI-Generated Images And Also Download Them 😊</h3> -->
     <div class="prompt_box">
         <form action="#" id="prompt_bar">
-            <input type="text" id="prompt_text" placeholder={% trans 'Provide a prompt for your image' %} autocomplete="off" required>
+            <input type="text" id="prompt_text" placeholder="{% trans 'Provide a prompt for your image.' %}" autocomplete="off" required>
             <select class="img_quantity">
                 <!-- Options for selecting the number of images to generate -->
                 <!-- Default selection: 3 images -->
-                <option value="1">1 Image</option>
-                <option value="2">2 Images</option>
-                <option value="3">3 Images</option>
-                <option value="4" selected>4 Images</option>
+                <option value="1">1 {% trans 'Image' %}</option>
+                <option value="2">2 {% trans 'Images' %}</option>
+                <option value="3">3 {% trans 'Images' %}</option>
+                <option value="4" selected>4 {% trans 'Images' %}</option>
                 <!-- <option value="5">5 Images</option>
                 <option value="6">6 Images</option>
                 <option value="7">7 Images</option>
@@ -31,9 +31,9 @@
             <select class="img_size">
                 <!-- Options for selecting the image size -->
                 <!-- Default selection: 512x512 pixels -->
-                <option value="256x256">Size: 256x256</option>
-                <option value="512x512" selected>Size: 512x512</option>
-                <option value="1024x1024">Size: 1024x1024</option>
+                <option value="256x256">{% trans 'Size' %}: 256x256</option>
+                <option value="512x512" selected>{% trans 'Size' %}: 512x512</option>
+                <option value="1024x1024">{% trans 'Size' %}: 1024x1024</option>
             </select>
             {% if request.user.is_authenticated %}
             <button>{% trans 'Generate' %}</button>
