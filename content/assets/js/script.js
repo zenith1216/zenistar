@@ -42,7 +42,7 @@ const  generateAIImages = async (userPrompt, imgQuntity, imgSize) => {
             })
         });
 
-        if(!response.ok) throw new Error("Failed to generate AI Images! Please try again.")
+        if(!response.ok) throw new Error('Failed to generate AI Images! Please try again.')
 
         const { data } = await response.json();
         console.log(data);
