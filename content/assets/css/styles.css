@@ -200,3 +200,7 @@ h3 {
     height: 1rem;
     color: var(--white_color);
 }
+
+.transparent-navbar {
+    background-color: transparent !important;
+}
