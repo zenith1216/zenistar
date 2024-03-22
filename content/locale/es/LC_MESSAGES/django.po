@@ -251,6 +251,10 @@ msgstr "Crear una cuenta"
 msgid "Create"
 msgstr "Crear"
 
+#: source/content/templates/main/index.html:39
+msgid "Generate"
+msgstr "Generar"
+
 #: source/accounts/utils.py:19
 msgid "Profile activation"
 msgstr "Activación de perfil"
