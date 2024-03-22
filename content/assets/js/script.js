@@ -26,7 +26,7 @@ const updateImgBoxes = (imgBoxArray) => {
 }
 
 // Function to generate AI images
-const  generateAIImages = async (userPrompt, imgQuntity, imgSize) => {
+const  generateAIImages = async (userPrompt, imgQuntity, imgSize, imgStyle) => {
      try {
         const response = await fetch('https://api.openai.com/v1/images/generations', {
             method : "POST",
@@ -35,7 +35,7 @@ const  generateAIImages = async (userPrompt, imgQuntity, imgSize) => {
                 "Authorization": `Bearer ${openaiAPIKey}`
             },
             body:JSON.stringify({
-                prompt : userPrompt,
+                prompt : imgStyle + ' ' + userPrompt,
                 n: parseInt(imgQuntity),
                 size : imgSize,
                 response_format :"b64_json"
@@ -66,6 +66,7 @@ const handlePrompt = (e) => {
     const userPrompt = e.srcElement[0].value;
     const imgQuntity = e.srcElement[1].value;
     const imgSize = e.srcElement[2].value;
+    const imgStyle = e.srcElement[3].value;
 
      // Create loading placeholders for images
     const imgBoxes = Array.from({length: imgQuntity}, () => 
@@ -78,7 +79,7 @@ const handlePrompt = (e) => {
     ).join("");
 
     imageresult.innerHTML = imgBoxes;
-    generateAIImages(userPrompt, imgQuntity, imgSize);
+    generateAIImages(userPrompt, imgQuntity, imgSize, imgStyle);
     
 }
 

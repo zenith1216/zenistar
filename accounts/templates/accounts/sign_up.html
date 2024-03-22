@@ -5,15 +5,19 @@
 
 {% block content %}
 
-    <h4>{% trans 'Sign up' %}</h4>
+<div class="d-flex flex-column align-items-center justify-content-center bg-grey mb-3">
+    <div class="border shadow p-4 mt-4 bg-white">
+        <h4>{% trans 'Sign up' %}</h4>
 
-    <form method="post">
+        <form method="post">
 
-        {% csrf_token %}
-        {% bootstrap_form form %}
+            {% csrf_token %}
+            {% bootstrap_form form %}
 
-        <button class="btn btn-success">{% trans 'Create' %}</button>
+            <button class="btn btn-success">{% trans 'Create' %}</button>
 
-    </form>
+        </form>
+    </div>
+</div>
 
 {% endblock %}
