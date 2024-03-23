@@ -39,9 +39,9 @@
             <select class="img_style">
                 <!-- Options for selecting the image size -->
                 <!-- Default selection: 512x512 pixels -->
-                <option value="Vivid">{% trans 'Style' %}: Vivid</option>
-                <option value="Photo" selected>{% trans 'Style' %}: Photo</option>
-                <option value="3D">{% trans 'Style' %}: 3D</option>
+                <option value="Vivid">{% trans 'Style' %}: {% trans 'Vivid' %}</option>
+                <option value="Photo" selected>{% trans 'Style' %}: {% trans 'Photo' %}</option>
+                <option value="3D">{% trans 'Style' %}: {% trans '3D' %}</option>
             </select>
             {% if request.user.is_authenticated %}
                 <button>{% trans 'Generate' %}</button>

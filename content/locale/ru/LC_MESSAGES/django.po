@@ -384,3 +384,15 @@ msgstr "Генератор изображений AI"
 #: source/content/templates/main/index.html:44
 msgid "Style"
 msgstr "Стиль"
+
+#: source/content/templates/main/index.html:42
+msgid "Vivid"
+msgstr "Яркий"
+
+#: source/content/templates/main/index.html:43
+msgid "Photo"
+msgstr "Фото"
+
+#: source/content/templates/main/index.html:44
+msgid "3D"
+msgstr "3D"

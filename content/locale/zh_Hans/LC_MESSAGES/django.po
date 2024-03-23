@@ -370,3 +370,15 @@ msgstr "Генератор изображений AI"
 #: source/content/templates/main/index.html:44
 msgid "Style"
 msgstr "风格"
+
+#: source/content/templates/main/index.html:42
+msgid "Vivid"
+msgstr "生动"
+
+#: source/content/templates/main/index.html:43
+msgid "Photo"
+msgstr "照片"
+
+#: source/content/templates/main/index.html:44
+msgid "3D"
+msgstr "3D"
