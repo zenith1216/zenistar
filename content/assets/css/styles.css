@@ -141,7 +141,7 @@ form button:hover {
 h3 {
     color: var(--orange_color);
     font-size: 60px;    
-    font-family: 'Pacifico', cursive;
+    font-family: 'Josefin Sans', Cursive;
     padding: 2rem 0 2rem 4rem;
     display: flex;
     align-items: center;
