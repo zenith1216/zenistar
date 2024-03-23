@@ -12,7 +12,7 @@
     </header>
     <!-- <h3>👉 Convert Your Text Into An AI-Generated Images And Also Download Them 😊</h3> -->
     <div class="prompt_box">
-        <form action="#" id="prompt_bar">
+        <form action="#" id="prompt_bar">        
             <input type="text" id="prompt_text" placeholder="{% trans 'Provide a prompt for your image.' %}" autocomplete="off" required>
             <select class="img_quantity">
                 <!-- Options for selecting the number of images to generate -->
@@ -35,11 +35,18 @@
                 <option value="512x512" selected>{% trans 'Size' %}: 512x512</option>
                 <option value="1024x1024">{% trans 'Size' %}: 1024x1024</option>
             </select>
+            <select class="img_style">
+                <!-- Options for selecting the image size -->
+                <!-- Default selection: 512x512 pixels -->
+                <option value="Vivid">{% trans 'Style' %}: Vivid</option>
+                <option value="Photo" selected>{% trans 'Style' %}: Photo</option>
+                <option value="3D">{% trans 'Style' %}: 3D</option>
+            </select>
             {% if request.user.is_authenticated %}
-            <button>{% trans 'Generate' %}</button>
-            {% endif %}
+                <button>{% trans 'Generate' %}</button>
+            {% endif %}                       
         </form>
-    </div>
+    </div>   
     <div class="hero_section">
         <div id="image_result">
             <!-- Generated images will be displayed here -->
