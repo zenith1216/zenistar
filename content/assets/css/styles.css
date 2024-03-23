@@ -139,8 +139,13 @@ form button:hover {
 
 /* Additional styling */
 h3 {
-    color: var(--black_color);
+    color: var(--orange_color);
+    font-size: 60px;    
+    font-family: 'Pacifico', cursive;
     padding: 2rem 0 2rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #image_result {
