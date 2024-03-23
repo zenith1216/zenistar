@@ -376,3 +376,11 @@ msgstr "Изображений"
 #: source/content/templates/main/index.html:34
 msgid "Size"
 msgstr "Размер"
+
+#: source/content/templates/main/index.html:14
+msgid "AI Image Generator"
+msgstr "Генератор изображений AI"
+
+#: source/content/templates/main/index.html:44
+msgid "Style"
+msgstr "Стиль"

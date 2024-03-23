@@ -362,3 +362,11 @@ msgstr "图片"
 #: source/content/templates/main/index.html:34
 msgid "Size"
 msgstr "尺寸"
+
+#: source/content/templates/main/index.html:14
+msgid "AI Image Generator"
+msgstr "Генератор изображений AI"
+
+#: source/content/templates/main/index.html:44
+msgid "Style"
+msgstr "风格"
